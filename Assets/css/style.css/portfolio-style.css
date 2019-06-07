@@ -132,7 +132,11 @@ ul {
   }
 
 
-  
+  .gallery {
+    margin: 5px;
+    float: left;
+    width: 70%;
+  }
 
 
 
