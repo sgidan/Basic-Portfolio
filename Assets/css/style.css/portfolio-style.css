@@ -37,9 +37,8 @@ h2{
 
 }
 
-p {
-    padding: 40px;
-    
+h3{
+    margin: 0px;
 }
 
 
@@ -48,20 +47,12 @@ p {
     background-color: white;
     margin: 25px;
 }
-
 img {
     float: left;
     margin-right: 40px;
     margin-left: 40px;
 
 }
-
-.images{
-    padding: 20px;
-
-}
-
-
 
 .container{
     clear: both;
@@ -115,9 +106,10 @@ ul {
         text-align: center;
         font-size: 8px;
         border-top: 8px solid red;
-        position: sticky;
-        bottom: 0px;
-
+        position: fixed;
+        bottom:0px;
+        left: 0px;
+            
       }
 
   .wrapper {
@@ -133,7 +125,7 @@ ul {
   }
 
   .row {
-    width: 100%;
+    width: 600px;
 }
 
 
@@ -141,6 +133,7 @@ ul {
     margin-right: 20px;
     margin-top: 20px;
     position: relative;
+    float: left;
     
 }
 
@@ -153,17 +146,20 @@ ul {
     height: 40px;
     display: block;
     margin-left: 40px;
+    top: 146px;
 }
 
 
-
-
-#bio-image2 {
+#image2 {
     margin: 20px;
 }
 
-#bio-image3 {
+#image3 {
     margin: 20px;
+}
+
+image4{
+    margin:20px;
 }
 
 
